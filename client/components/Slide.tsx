@@ -12,15 +12,16 @@ type Props = {
     | (IntrinsicAttributes & IntrinsicClassAttributes<Carousel>)
   slidesToShow: number
   arrowsScroll: number
+  className?: HTMLAttributes<HTMLDivElement>
 }
 
-export default function Slide({children, slidesToShow, arrowsScroll}: Props) {
+export default function Slide({children, slidesToShow, arrowsScroll, className}: Props) {
   return (
-    <div className="flex justify-center py-[100px] px-0">
+    <div className=" flex justify-center py-[100px] px-0">
       <div className="w-[1400px] ">
         <Slider
-
           slidesToShow={slidesToShow}
+          className={className}
           arrowsScroll={arrowsScroll}
           autoplay={true}
         >

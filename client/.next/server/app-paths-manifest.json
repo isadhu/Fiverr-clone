@@ -1,3 +1,4 @@
 {
+  "/Messages/Message/page": "app/Messages/Message/page.js",
   "/page": "app/page.js"
 }

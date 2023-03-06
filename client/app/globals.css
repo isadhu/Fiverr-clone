@@ -34,6 +34,18 @@
     .title{
     @apply text-gray-500 font-bold text-xl flex gap-[10px]
     }
+    .tableTR{
+    @apply even:bg-[#1dbf730f] h-[50px]
+    }
+    .active{
+    @apply bg-[#1dbf730f]
+    }
+    .messageItem{
+    @apply flex gap-5 max-w-[600px] text-lg
+    }
+    .owner{
+    @apply flex-row-reverse self-end
+    }
 }
 
 
