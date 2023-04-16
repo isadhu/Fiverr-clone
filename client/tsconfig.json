@@ -24,6 +24,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Slide.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Slide.tsx", "utils/upload.js", "screens/Register.jsx", "screens/Login.jsx", "components/Navbar.jsx", "screens/GigsScreen.jsx"],
   "exclude": ["node_modules"]
 }

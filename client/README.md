@@ -63,3 +63,6 @@ ADD in settings.json (search code action in visual code settings)
     },
     "eslint.validate": ["javascript", "typescript"]
 }
+
+For JWT_KEY
+// echo -n Welcome | md5sum

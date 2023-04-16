@@ -1,3 +1,4 @@
+import Providers from '@/app/util/providers'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import './globals.css'
@@ -15,9 +16,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Providers>
           <Navbar />
           {children}
           <Footer />
+        </Providers>
       </body>
     </html>
   )

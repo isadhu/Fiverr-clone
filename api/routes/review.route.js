@@ -1,0 +1,12 @@
+import express from "express";
+import { verifyToken } from "../middleware/jwt.js";
+import {
+  createReview,
+  getReviews,
+  deleteReview,
+} from "../controllers/review.controller.js";
+
+const router = express.Router();
+
+
+export default router;

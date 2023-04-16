@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 
 export default function GigScreen() {
+    
   return (
     <div className="flex justify-center">
       <div className="w-[1400px] px-0 py-[30px] flex gap-[50px]">
